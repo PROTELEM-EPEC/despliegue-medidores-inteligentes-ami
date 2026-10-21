@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Despliegue Masivo AMI - EPEC | Tablero de Control y Cronograma</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="app-layout">
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand-box">
+        <div class="brand-badge">AMI EPEC</div>
+        <h2>Plan Despliegue MI</h2>
+        <span class="sub-badge">Licitación N° 5573</span>
+      </div>
+
+      <nav class="nav-menu">
+        <button class="nav-item active" data-tab="tab-resumen">
+          <span class="nav-icon">📊</span> Resumen Ejecutivo
+        </button>
+        <button class="nav-item" data-tab="tab-cronograma">
+          <span class="nav-icon">📅</span> Cronograma & VP (20d)
+        </button>
+        <button class="nav-item" data-tab="tab-planes-capital">
+          <span class="nav-icon">🗺️</span> Planes Córdoba Capital
+        </button>
+        <button class="nav-item" data-tab="tab-interior">
+          <span class="nav-icon">🌾</span> Distritos del Interior
+        </button>
+        <button class="nav-item" data-tab="tab-cuadrillas">
+          <span class="nav-icon">⚡</span> Curva Cuadrillas vs Stock
+        </button>
+        <button class="nav-item" data-tab="tab-galeria">
+          <span class="nav-icon">🖼️</span> Cartografía y Gantt HD
+        </button>
+      </nav>
+
+      <div class="sidebar-footer">
+        <div class="org-badge">PROTELEM-EPEC</div>
+        <p>División Medidores & Conexiones</p>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      <!-- Topbar Header -->
+      <header class="topbar">
+        <div class="header-title">
+          <h1>Plan de Despliegue de Medidores Inteligentes y Concentradores PLC</h1>
+          <p class="subtitle">Coordinación de Stock con Verificación Primitiva, Homogeneidad por SET y Ejecución de Cuadrillas</p>
+        </div>
+        <div class="header-actions">
+          <span class="status-pill live">● En Planificación Activa</span>
+        </div>
+      </header>
+
+      <!-- KPI Summary Cards -->
+      <section class="kpi-grid">
+        <div class="kpi-card">
+          <span class="kpi-label">Total Medidores AMI</span>
+          <span class="kpi-val text-accent">400.000</span>
+          <span class="kpi-desc">200k Sanxing + 200k CLOU</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Concentradores PLC</span>
+          <span class="kpi-val text-blue">6.000</span>
+          <span class="kpi-desc">Cabeceras de Subestación (SET)</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Mano de Obra Contratada</span>
+          <span class="kpi-val text-purple">188.000 USE</span>
+          <span class="kpi-desc">Rowing (94k) + Conectar (94k)</span>
+        </div>
+        <div class="kpi-card">
+          <span class="kpi-label">Cuadrillas Mínimas Diarias</span>
+          <span class="kpi-val text-green">50 Cuadrillas</span>
+          <span class="kpi-desc">~700 instalaciones / día hábil</span>
+        </div>
+      </section>
+
+      <!-- Tab Content 1: Resumen -->
+      <section id="tab-resumen" class="tab-pane active">
+        <div class="panel-box">
+          <h2>📌 Síntesis Operativa y Reglas Rectoras</h2>
+          <div class="alert-box note">
+            <strong>Regla de Oro Operativa:</strong> No se despliega en ninguna acometida si la Subestación Transformadora (SET) no cuenta con Concentrador PLC instalado y reportando al Headend (estado <em>"SET OK"</em>).
+          </div>
+          <div class="grid-2col">
+            <div class="card-inner">
+              <h3>🏭 Lotes Adjudicados por Proveedor</h3>
+              <ul>
+                <li><strong>OP 27131 (Sanford Global Trade LLC)</strong>: 160.000 Monofásicos + 40.000 Trifásicos + 3.000 Concentradores. Marca <strong>Sanxing / CLOU</strong>.</li>
+                <li><strong>OP 27133 (Nicema S.A.)</strong>: 160.000 Monofásicos (158k PLC + 2k GPRS) + 40.000 Trifásicos + 3.000 Concentradores.</li>
+                <li><strong>OP 27132 (Rowing S.A.)</strong>: 94.000 USE Mano de obra (Límite contractual: Enero 2028).</li>
+                <li><strong>OP 27134 (Conectar S.R.L.)</strong>: 94.000 USE Mano de obra (Límite contractual: Marzo 2028).</li>
+              </ul>
+            </div>
+            <div class="card-inner">
+              <h3>🗺️ Estrategia de Asignación Territorial</h3>
+              <ul>
+                <li><strong>Plan 19 (Capital)</strong>: Conservar homogeneidad con los ~10.000 Nansen preexistentes.</li>
+                <li><strong>Plan 6 (Capital)</strong>: Asignación <strong>CLOU</strong> por continuidad eléctrica con Plan 4.</li>
+                <li><strong>Plan 18 (Capital)</strong>: Asignación <strong>SANXING</strong> para absorber el Lote 1 (Disp. 18/02/2027).</li>
+                <li><strong>San Francisco (Interior)</strong>: 28.000 puntos asignados en bloque a <strong>SANXING</strong>.</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab Content 2: Cronograma -->
+      <section id="tab-cronograma" class="tab-pane">
+        <div class="panel-box">
+          <h2>📅 Cronograma de Disponibilidad Real en Campo (`Disp.`)</h2>
+          <p class="section-desc">Considera los plazos contractuales más los <strong>20 días de Verificación Primitiva (VP)</strong> de la Res. 247/2019 de laboratorios.</p>
+          <div class="table-responsive">
+            <table class="data-table" id="tabla-cronograma">
+              <thead>
+                <tr>
+                  <th>Lote / Marca</th>
+                  <th>Cantidad</th>
+                  <th>Días Plazo</th>
+                  <th>Verif. Primitiva</th>
+                  <th>Fecha Disponible</th>
+                  <th>Stock Acumulado</th>
+                  <th>Destino Estratégico</th>
+                </tr>
+              </thead>
+              <tbody id="cronograma-tbody">
+                <!-- Injected via JS -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab Content 3: Planes Capital -->
+      <section id="tab-planes-capital" class="tab-pane">
+        <div class="panel-box">
+          <h2>🗺️ Diagnóstico y Prioridades: Córdoba Capital (Zona A)</h2>
+          <div class="planes-grid" id="planes-grid">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab Content 4: Interior -->
+      <section id="tab-interior" class="tab-pane">
+        <div class="panel-box">
+          <h2>🌾 Distritos del Interior: Puntos Relevados y Programación</h2>
+          <div class="interior-grid" id="interior-grid">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab Content 5: Cuadrillas vs Stock -->
+      <section id="tab-cuadrillas" class="tab-pane">
+        <div class="panel-box">
+          <h2>⚡ Simulación: Ritmo de Cuadrillas vs. Disponibilidad de Stock</h2>
+          <div class="simulator-controls">
+            <label>Cuadrillas en simultáneo: <input type="number" id="input-cuadrillas" value="50" min="20" max="80"></label>
+            <label>Rendimiento diario por cuadrilla: <input type="number" id="input-rendimiento" value="14" min="8" max="25"> medidores/día</label>
+            <button id="btn-recalcular" class="btn-primary">Recalcular Curva</button>
+          </div>
+          <div id="simulador-resultado" class="simulador-output">
+            <!-- Injected via JS -->
+          </div>
+        </div>
+      </section>
+
+      <!-- Tab Content 6: Galería HD -->
+      <section id="tab-galeria" class="tab-pane">
+        <div class="panel-box">
+          <h2>🖼️ Documentación Visual HD: Mapas y Diagramas de Avance</h2>
+          <div class="gallery-grid">
+            <div class="gallery-card">
+              <h3>Cartografía GIS: Planes Zona A (Capital)</h3>
+              <img src="assets/img/mapa_planes_zona_a_cordoba.png" alt="Mapa Planes Zona A" class="zoomable-img">
+              <p>Relevamiento de suministros (puntos amarillos) y delimitación de planes 6, 8, 12, 17, 18 y 19.</p>
+            </div>
+            <div class="gallery-card">
+              <h3>Cronograma Gantt Oficial: Entregas Sanxing y CLOU</h3>
+              <img src="assets/img/cronograma_gantt_entregas_vp.png" alt="Gantt Entregas y VP" class="zoomable-img">
+              <p>Hitos de Verificación Primitiva (VP 20d) y fechas reales de disponibilidad operativa en almacén.</p>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>

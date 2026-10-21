@@ -1,0 +1,30 @@
+{
+  "San_Francisco": {
+    "distrito": "San Francisco",
+    "puntos_relevados": 28000,
+    "marca_asignada": "SANXING",
+    "lote_sugerido": "Entrega 1 y 2 Sanxing (Feb-Mar 2027)",
+    "estado_poligonos": "Pendiente dibujo de poligonos de plan"
+  },
+  "Rio_Cuarto": {
+    "distrito": "Río Cuarto",
+    "puntos_relevados": 13000,
+    "marca_asignada": "SANXING",
+    "lote_sugerido": "Entrega 4 Sanxing (Mayo 2027)",
+    "estado_poligonos": "Pendiente dibujo de poligonos de plan"
+  },
+  "Villa_Maria": {
+    "distrito": "Villa María",
+    "puntos_relevados": 6000,
+    "marca_asignada": "SANXING",
+    "lote_sugerido": "Entrega 5 Sanxing (Junio 2027)",
+    "estado_poligonos": "Pendiente dibujo de poligonos de plan"
+  },
+  "Villa_Allende": {
+    "distrito": "Villa Allende",
+    "puntos_relevados": 800,
+    "marca_asignada": "CLOU",
+    "lote_sugerido": "Entrega 1 o 2 CLOU (Mar-Abr 2027)",
+    "estado_poligonos": "Continuidad Gran Córdoba"
+  }
+}

@@ -1,0 +1,107 @@
+{
+  "licitacion": "Licitacion Publica N° 5573 / Resolucion N° 0653/2026",
+  "total_medidores": 400000,
+  "total_concentradores": 6000,
+  "total_use_mano_obra": 188000,
+  "entregas": [
+    {
+      "marca": "Sanxing",
+      "entrega_nro": 1,
+      "cantidad": 34000,
+      "dias_contractuales": 120,
+      "vp_dias": 20,
+      "fecha_disponible": "18/02/2027",
+      "acumulado_marca": 34000,
+      "acumulado_total": 34000,
+      "destino_principal": "Cordoba Capital Plan 18 / San Francisco Lote 1"
+    },
+    {
+      "marca": "Sanxing",
+      "entrega_nro": 2,
+      "cantidad": 31000,
+      "dias_contractuales": 148,
+      "vp_dias": 20,
+      "fecha_disponible": "18/03/2027",
+      "acumulado_marca": 65000,
+      "acumulado_total": 65000,
+      "destino_principal": "Completamiento San Francisco (28k total)"
+    },
+    {
+      "marca": "CLOU",
+      "entrega_nro": 1,
+      "cantidad": 42000,
+      "dias_contractuales": 155,
+      "vp_dias": 20,
+      "fecha_disponible": "25/03/2027",
+      "acumulado_marca": 42000,
+      "acumulado_total": 107000,
+      "destino_principal": "Cordoba Capital Plan 6 (Continuidad con Plan 4 CLOU)"
+    },
+    {
+      "marca": "Sanxing",
+      "entrega_nro": 3,
+      "cantidad": 45000,
+      "dias_contractuales": 176,
+      "vp_dias": 20,
+      "fecha_disponible": "15/04/2027",
+      "acumulado_marca": 110000,
+      "acumulado_total": 152000,
+      "destino_principal": "Cordoba Capital Plan 17 (Zona Aerea)"
+    },
+    {
+      "marca": "Sanxing",
+      "entrega_nro": 4,
+      "cantidad": 45000,
+      "dias_contractuales": 211,
+      "vp_dias": 20,
+      "fecha_disponible": "20/05/2027",
+      "acumulado_marca": 155000,
+      "acumulado_total": 197000,
+      "destino_principal": "Distrito Rio Cuarto (13k) + Cuencas afines"
+    },
+    {
+      "marca": "Sanxing",
+      "entrega_nro": 5,
+      "cantidad": 45000,
+      "dias_contractuales": 239,
+      "vp_dias": 20,
+      "fecha_disponible": "17/06/2027",
+      "acumulado_marca": 200000,
+      "acumulado_total": 242000,
+      "destino_principal": "Distrito Villa Maria (6k) + Cierre Sanxing 100%"
+    },
+    {
+      "marca": "CLOU",
+      "entrega_nro": 2,
+      "cantidad": 41500,
+      "dias_contractuales": 330,
+      "vp_dias": 20,
+      "fecha_disponible": "16/09/2027",
+      "acumulado_marca": 83500,
+      "acumulado_total": 283500,
+      "destino_principal": "Cordoba Capital Plan 8 (Post-relevamiento acometidas)"
+    },
+    {
+      "marca": "CLOU",
+      "entrega_nro": 3,
+      "cantidad": 41500,
+      "dias_contractuales": 351,
+      "vp_dias": 20,
+      "fecha_disponible": "07/10/2027",
+      "acumulado_marca": 125000,
+      "acumulado_total": 325000,
+      "destino_principal": "Cordoba Capital Plan 12 + Villa Allende (800)"
+    },
+    {
+      "marca": "CLOU",
+      "entrega_nro": 4,
+      "cantidad": 75000,
+      "dias_contractuales": 421,
+      "vp_dias": 20,
+      "fecha_disponible": "16/12/2027",
+      "acumulado_marca": 200000,
+      "acumulado_total": 400000,
+      "destino_principal": "Zona Centro Subterranea (14 y 15 GPRS) + Cierre Licitacion"
+    }
+  ]
+}

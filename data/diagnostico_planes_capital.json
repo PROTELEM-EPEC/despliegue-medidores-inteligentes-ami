@@ -1,0 +1,52 @@
+{
+  "GRL_19": {
+    "nombre": "Plan 19",
+    "estado_relevamiento": "Relevado 100%",
+    "puntos_existentes_nansen": 9850,
+    "tecnologia_recomendada": "NANSEN (completar con stock remanente) o aislamiento por SET",
+    "prioridad": "Alta",
+    "notas": "Tiene casi 10.000 Nansen activos. Mantener compatibilidad con concentradores Nansen."
+  },
+  "GRL_6": {
+    "nombre": "Plan 6",
+    "estado_relevamiento": "Relevado 100% (ultimo relevado)",
+    "tecnologia_recomendada": "CLOU",
+    "prioridad": "Alta (Arranque CLOU Abril 2027)",
+    "notas": "Pegado al Plan 4 con tecnologia CLOU."
+  },
+  "GRL_18": {
+    "nombre": "Plan 18",
+    "estado_relevamiento": "Relevado 100%",
+    "tecnologia_recomendada": "SANXING",
+    "prioridad": "Alta (Arranque Sanxing Febrero 2027)",
+    "notas": "Alta densidad. Absorbe primer lote Sanxing (Disp. 18/02/2027)."
+  },
+  "GRL_17": {
+    "nombre": "Plan 17",
+    "estado_relevamiento": "Relevado aereo / pendiente sector subterraneo",
+    "tecnologia_recomendada": "SANXING (Aereo) / GPRS (Subterraneo)",
+    "prioridad": "Media",
+    "notas": "Colinda con GRL_18. Auditoria de edificios y sector subterraneo cerca de Nva Cba."
+  },
+  "GRL_12": {
+    "nombre": "Plan 12",
+    "estado_relevamiento": "Relevado parcial",
+    "tecnologia_recomendada": "CLOU",
+    "prioridad": "Media (Requiere auditoria)",
+    "notas": "Falta parte colindante a Plan 17. Auditar si es subterraneo antes de desplegar."
+  },
+  "GRL_8": {
+    "nombre": "Plan 8",
+    "estado_relevamiento": "SETs y parcelas dibujadas. Faltan acometidas en campo.",
+    "tecnologia_recomendada": "CLOU",
+    "prioridad": "Relevamiento Inmediato (Q4 2026 - Q1 2027)",
+    "notas": "Relevar acometidas de inmediato para recibir CLOU en Septiembre 2027."
+  },
+  "GRL_14_15": {
+    "nombre": "Planes 14 y 15 (Centro)",
+    "estado_relevamiento": "Sin SETs aereas (100% subterraneo)",
+    "tecnologia_recomendada": "GPRS / Gabinete Cód. 4 y 7",
+    "prioridad": "Fase Final (Q4 2027)",
+    "notas": "Camaras subterraneas. Medidores inteligentes con modem celular GPRS."
+  }
+}
