@@ -1,0 +1,106 @@
+{
+  "tasa_instalacion_zona_a": 7559,
+  "tasa_relevamiento_zona_a": 3620,
+  "tasa_relevamiento_reciente": 4338,
+  "backlog_inicial": 162156,
+  "meta_zona_a_neta": 316980,
+  "tasa_instalacion_requerida": 26415,
+  "tasa_relevamiento_requerida": 12902,
+  "entregas": [
+    {
+      "lote": "Sanxing E1",
+      "mes": "2027-02",
+      "bruto": 34000,
+      "zona_a_bruto": 19354,
+      "zona_a_neto": 17419
+    },
+    {
+      "lote": "Sanxing E2",
+      "mes": "2027-03",
+      "bruto": 31000,
+      "zona_a_bruto": 17646,
+      "zona_a_neto": 15881
+    },
+    {
+      "lote": "CLOU E1",
+      "mes": "2027-03",
+      "bruto": 42000,
+      "zona_a_bruto": 42000,
+      "zona_a_neto": 37800
+    },
+    {
+      "lote": "Sanxing E3",
+      "mes": "2027-04",
+      "bruto": 45000,
+      "zona_a_bruto": 45000,
+      "zona_a_neto": 40500
+    },
+    {
+      "lote": "Sanxing E4",
+      "mes": "2027-05",
+      "bruto": 45000,
+      "zona_a_bruto": 32000,
+      "zona_a_neto": 28800
+    },
+    {
+      "lote": "Sanxing E5",
+      "mes": "2027-06",
+      "bruto": 45000,
+      "zona_a_bruto": 39000,
+      "zona_a_neto": 35100
+    },
+    {
+      "lote": "CLOU E2",
+      "mes": "2027-09",
+      "bruto": 41500,
+      "zona_a_bruto": 41500,
+      "zona_a_neto": 37350
+    },
+    {
+      "lote": "CLOU E3",
+      "mes": "2027-10",
+      "bruto": 41500,
+      "zona_a_bruto": 40700,
+      "zona_a_neto": 36630
+    },
+    {
+      "lote": "CLOU E4",
+      "mes": "2027-12",
+      "bruto": 75000,
+      "zona_a_bruto": 75000,
+      "zona_a_neto": 67500
+    }
+  ],
+  "fin_escenarios": {
+    "A_ritmo_historico": {
+      "escenario": "A: Ritmo histórico (inst. y relev. Nov25-Abr26)",
+      "mes": "2030-07",
+      "stock_ingresa": 0,
+      "instalado": 7054,
+      "instalado_acum": 316980,
+      "stock_ocioso": 0,
+      "backlog_relevado": 8083,
+      "restriccion": "META"
+    },
+    "B_relev_reciente": {
+      "escenario": "B: Inst. histórica + relev. reciente (May-Sep26)",
+      "mes": "2030-07",
+      "stock_ingresa": 0,
+      "instalado": 7054,
+      "instalado_acum": 316980,
+      "stock_ocioso": 0,
+      "backlog_relevado": 40386,
+      "restriccion": "META"
+    },
+    "C_ritmo_requerido": {
+      "escenario": "C: Ritmo requerido para cerrar en Ene-2028",
+      "mes": "2028-02",
+      "stock_ingresa": 0,
+      "instalado": 14670,
+      "instalado_acum": 316980,
+      "stock_ocioso": 0,
+      "backlog_relevado": 51608,
+      "restriccion": "META"
+    }
+  }
+}

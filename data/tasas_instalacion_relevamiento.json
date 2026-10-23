@@ -1,0 +1,267 @@
+{
+  "instalaciones_mensual": [
+    {
+      "mes": "2025-11",
+      "INTERIOR": 103,
+      "ZONA_A": 9637,
+      "TOTAL": 9740
+    },
+    {
+      "mes": "2025-12",
+      "INTERIOR": 81,
+      "ZONA_A": 7655,
+      "TOTAL": 7736
+    },
+    {
+      "mes": "2026-01",
+      "INTERIOR": 114,
+      "ZONA_A": 5112,
+      "TOTAL": 5226
+    },
+    {
+      "mes": "2026-02",
+      "INTERIOR": 102,
+      "ZONA_A": 6173,
+      "TOTAL": 6275
+    },
+    {
+      "mes": "2026-03",
+      "INTERIOR": 205,
+      "ZONA_A": 8424,
+      "TOTAL": 8629
+    },
+    {
+      "mes": "2026-04",
+      "INTERIOR": 78,
+      "ZONA_A": 8354,
+      "TOTAL": 8432
+    }
+  ],
+  "relevamiento_mensual": [
+    {
+      "mes": "2023-04",
+      "n_registros": 1788,
+      "n_medidores": 1788
+    },
+    {
+      "mes": "2023-05",
+      "n_registros": 8428,
+      "n_medidores": 8428
+    },
+    {
+      "mes": "2023-06",
+      "n_registros": 13488,
+      "n_medidores": 13488
+    },
+    {
+      "mes": "2023-07",
+      "n_registros": 19428,
+      "n_medidores": 19428
+    },
+    {
+      "mes": "2023-08",
+      "n_registros": 19627,
+      "n_medidores": 19627
+    },
+    {
+      "mes": "2023-09",
+      "n_registros": 11901,
+      "n_medidores": 11901
+    },
+    {
+      "mes": "2023-10",
+      "n_registros": 4278,
+      "n_medidores": 4278
+    },
+    {
+      "mes": "2023-11",
+      "n_registros": 9359,
+      "n_medidores": 9359
+    },
+    {
+      "mes": "2023-12",
+      "n_registros": 8960,
+      "n_medidores": 8960
+    },
+    {
+      "mes": "2024-01",
+      "n_registros": 10966,
+      "n_medidores": 10966
+    },
+    {
+      "mes": "2024-02",
+      "n_registros": 1914,
+      "n_medidores": 1914
+    },
+    {
+      "mes": "2024-03",
+      "n_registros": 5988,
+      "n_medidores": 5988
+    },
+    {
+      "mes": "2024-04",
+      "n_registros": 3987,
+      "n_medidores": 3987
+    },
+    {
+      "mes": "2024-05",
+      "n_registros": 9188,
+      "n_medidores": 9188
+    },
+    {
+      "mes": "2024-06",
+      "n_registros": 4742,
+      "n_medidores": 4742
+    },
+    {
+      "mes": "2024-07",
+      "n_registros": 4299,
+      "n_medidores": 4299
+    },
+    {
+      "mes": "2024-08",
+      "n_registros": 9491,
+      "n_medidores": 9491
+    },
+    {
+      "mes": "2024-09",
+      "n_registros": 7238,
+      "n_medidores": 7238
+    },
+    {
+      "mes": "2024-10",
+      "n_registros": 6312,
+      "n_medidores": 6312
+    },
+    {
+      "mes": "2024-11",
+      "n_registros": 5843,
+      "n_medidores": 5843
+    },
+    {
+      "mes": "2024-12",
+      "n_registros": 2497,
+      "n_medidores": 2497
+    },
+    {
+      "mes": "2025-01",
+      "n_registros": 2309,
+      "n_medidores": 2309
+    },
+    {
+      "mes": "2025-02",
+      "n_registros": 1248,
+      "n_medidores": 1248
+    },
+    {
+      "mes": "2025-03",
+      "n_registros": 2242,
+      "n_medidores": 2242
+    },
+    {
+      "mes": "2025-04",
+      "n_registros": 1656,
+      "n_medidores": 1656
+    },
+    {
+      "mes": "2025-05",
+      "n_registros": 2907,
+      "n_medidores": 2907
+    },
+    {
+      "mes": "2025-06",
+      "n_registros": 633,
+      "n_medidores": 633
+    },
+    {
+      "mes": "2025-07",
+      "n_registros": 911,
+      "n_medidores": 911
+    },
+    {
+      "mes": "2025-08",
+      "n_registros": 3999,
+      "n_medidores": 3999
+    },
+    {
+      "mes": "2025-09",
+      "n_registros": 8995,
+      "n_medidores": 8995
+    },
+    {
+      "mes": "2025-10",
+      "n_registros": 3004,
+      "n_medidores": 3004
+    },
+    {
+      "mes": "2025-11",
+      "n_registros": 2764,
+      "n_medidores": 2764
+    },
+    {
+      "mes": "2025-12",
+      "n_registros": 439,
+      "n_medidores": 439
+    },
+    {
+      "mes": "2026-01",
+      "n_registros": 4032,
+      "n_medidores": 4032
+    },
+    {
+      "mes": "2026-02",
+      "n_registros": 5584,
+      "n_medidores": 5584
+    },
+    {
+      "mes": "2026-03",
+      "n_registros": 6823,
+      "n_medidores": 6823
+    },
+    {
+      "mes": "2026-04",
+      "n_registros": 2079,
+      "n_medidores": 2079
+    },
+    {
+      "mes": "2026-05",
+      "n_registros": 1509,
+      "n_medidores": 1509
+    },
+    {
+      "mes": "2026-06",
+      "n_registros": 2915,
+      "n_medidores": 2915
+    },
+    {
+      "mes": "2026-07",
+      "n_registros": 5430,
+      "n_medidores": 5430
+    },
+    {
+      "mes": "2026-08",
+      "n_registros": 6042,
+      "n_medidores": 6042
+    },
+    {
+      "mes": "2026-09",
+      "n_registros": 5794,
+      "n_medidores": 5794
+    },
+    {
+      "mes": "2026-10",
+      "n_registros": 4571,
+      "n_medidores": 4571
+    }
+  ],
+  "backlog_relevado_zona_a": [
+    {
+      "estado": "PENDIENTE_INSTALAR",
+      "n": 162156
+    },
+    {
+      "estado": "YA_MI",
+      "n": 83452
+    }
+  ]
+}
