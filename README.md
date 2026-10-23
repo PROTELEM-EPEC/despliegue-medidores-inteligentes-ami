@@ -72,24 +72,52 @@ Conforme a la **Resolución 247/2019 de la Secretaría de Comercio**, todo lote 
 
 ---
 
+## 📦 Plan Maestro Contractual de Despliegue (360.000 Medidores Netos)
+
+Con la aplicación de la **reserva técnica del 10%** (40.000 medidores en custodia en Almacén Ferreyra para garantías, roturas y amortiguación de `VP 20d`), el lote neto a instalar asciende a **360.000 medidores inteligentes** con fecha límite improrrogable al **25 de enero de 2028** (12 meses: Febrero 2027 a Enero 2028).
+
+### Distribución Territorial Aprobada:
+* **Zona A (Córdoba Capital)**: **316.980 medidores** (88,05%).
+* **Interior de la Provincia**: **43.020 medidores** (11,95%):
+  * **Río Cuarto**: **13.000 medidores** (**100% completo** de la cuenca asignada).
+  * **San Francisco**: **24.154 medidores** (proporcional, Sanxing E1 + E2).
+  * **Villa María**: **5.176 medidores** (proporcional, Sanxing E5).
+  * **Villa Allende**: **690 medidores** (proporcional, CLOU E3).
+
+### Regla de Relevamiento Anticipado ($\ge$ 15 días):
+Todo frente de obra se releva con **1 mes de antelación** (Enero 2027 a Diciembre 2027), garantizando un colchón de 15 a 30 días con subestaciones **"SET OK"** antes de la llegada de las cuadrillas.
+
+---
+
 ## 🛠️ Estructura del Repositorio
 
 ```
 despliegue-medidores-inteligentes-ami/
-├── README.md                                 # Documentación principal
-├── index.html                                # Tablero interactivo SPA de seguimiento y Gantt
+├── README.md                                 # Memoria técnica y lineamientos contractuales
+├── index.html                                # Tablero interactivo SPA ejecutivo
 ├── style.css                                 # Estilos ejecutivos Dark Mode
 ├── app.js                                    # Lógica interactiva de simulación y filtros
 ├── data/
 │   ├── cronograma_entregas_ami.json          # Matriz de entregas, VP y fechas disponibles
 │   ├── diagnostico_planes_capital.json       # Datos por plan de Capital
-│   └── relevamiento_interior.json            # Puntos por distrito interior
+│   ├── relevamiento_interior.json            # Puntos censados por distrito interior
+│   ├── conteo_medidores_mi_sigec.csv         # Universo de suministros SIGEC
+│   ├── tasas_instalacion_relevamiento.json   # Tasas reales históricas de campo
+│   ├── simulacion_equilibrio_zona_a.csv      # Simulación de equilibrio Zona A
+│   └── plan_maestro_despliegue_360k.csv      # Plan Maestro Contractual mensual y acumulado
 ├── docs/
 │   ├── 01_analisis_licitacion_5573_ordenes_provision.md
 │   ├── 02_metodologia_despliegue_set_concentradores_plc.md
 │   ├── 03_compatibilidad_marcas_y_fronteras_electricas.md
 │   ├── 04_plan_de_accion_cuadrillas_y_relevamientos.md
+│   ├── 05_equilibrio_relevamiento_instalacion_stock_zona_a.md
+│   ├── 06_plan_maestro_despliegue_contractual_360k.md
 │   └── licitacion_5573/                      # Pliegos y OPs oficiales en PDF
+├── scripts/
+│   ├── consulta_sigec_medidores_mi_telemedibles.sql
+│   ├── analisis_tasas_instalacion_relevamiento.py
+│   ├── simulacion_equilibrio_zona_a.py
+│   └── plan_maestro_despliegue_360k.py
 └── assets/img/                               # Cartografía GIS y gráficos Gantt
 ```
 
